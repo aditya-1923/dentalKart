@@ -5,5 +5,6 @@ from .models import *
 
 
 def homepage(request):
+
     pass
 
