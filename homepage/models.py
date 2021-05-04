@@ -5,6 +5,7 @@ from django.db import models
 
 class Admin(models.Model):
     id = models.AutoField(db_column='id', primary_key=True)
+    sku = models.TextField(null=True)
     heading = models.CharField(max_length=500, null=True)
     heading_url = models.TextField(null=True)
     view = models.CharField(max_length=250, null=True)
